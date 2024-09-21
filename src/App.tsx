@@ -5,7 +5,7 @@ import WelcomePage from './Components/WelcomePage/WelcomePage';
 import EmailPage from './Components/EmailPage/EmailPage';
 
 const App: React.FC = () => {
-  const [activeScreen, setActiveScreen] = useState<'default' | 'welcome-form'>('default');
+  const [, setActiveScreen] = useState<'default' | 'welcome-form'>('default');
   // const [formData, setFormData] = useState({
   //   title: '',
   //   description: '',
