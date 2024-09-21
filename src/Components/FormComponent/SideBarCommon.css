@@ -1,0 +1,153 @@
+.main__container__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100vh;
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+.main__bar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.btn__settings,
+.btn__close {
+  cursor: pointer;
+}
+
+.btn__close {
+  border: 1px solid rgb(151, 149, 149);
+  border-radius: 5px;
+}
+
+.btn__welcome button {
+  padding: 100px;
+}
+
+.secondary__bar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.secondary__bar__container__title {
+  color: black;
+  font-weight: 600;
+}
+
+.bar__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+.main__baricon__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar__container__titile {
+  font-size: 1rem;
+}
+
+.bar__container__input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.image__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 1px solid rgb(137, 135, 135);
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.removeimg_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 1px solid rgb(137, 135, 135);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bar__container__placement {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.placement_btn {
+  padding: 0.4rem 0.8rem;
+  background-color: transparent;
+  border: 1px solid rgb(137, 135, 135);
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.image__box {
+  width: 100%;
+  max-height: 270px;
+  padding: 0.6rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(137, 135, 135);
+}
+
+.btn__group {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.save_btn {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.1rem;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.discard_btn {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: rgb(224, 68, 68);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

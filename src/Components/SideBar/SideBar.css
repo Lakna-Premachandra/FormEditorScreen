@@ -1,0 +1,132 @@
+.main__container__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100vh;
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+.main__bar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.btn__settings,
+.btn__bar,
+.btn__close {
+  cursor: pointer;
+}
+
+.btn__welcome button {
+  padding: 100px;
+}
+
+.secondary__bar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.secondary__bar__container__title {
+  color: rgb(138, 135, 135);
+}
+
+.header__header__selector {
+  background-color: rgb(138, 135, 135);
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.sub__header__selector {
+  display: flex;
+  background-color: rgb(138, 135, 135);
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.header__selector button {
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.bar__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 3rem;
+}
+
+.main__baricon__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bar__container__titile {
+  font-size: 1rem;
+}
+
+.bar__container__description {
+  font-size: 0.9rem;
+}
+
+.fields__container {
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.sub__fields__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(222, 219, 219);
+  border-radius: 5px;
+}
+
+.fields__container button {
+  background-color: rgb(222, 219, 219);
+  border: none;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 1px solid rgb(137, 135, 135);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.end__screen__wrapper {
+  border-top: 1px solid rgb(160, 158, 158);
+  margin-top: 2rem;
+}
+
+.end__screen__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgb(238, 233, 233);
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+}

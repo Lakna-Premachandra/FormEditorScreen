@@ -1,0 +1,74 @@
+.main__content__wrapper {
+  width: 80%;
+  padding: 1rem;
+}
+
+.main__Container__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+  box-shadow: 0px 4px 8px rgba(0.2, 0.1, 0.1, 0.1);
+  border-radius: 10px;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 50vh;
+  padding: 20px;
+}
+
+.main__wrapper__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main__wrapper__description {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input-container label {
+  font-weight: bold;
+}
+
+.email-input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
